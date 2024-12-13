@@ -40,7 +40,7 @@ export default function Home() {
       const mailtoLink = generateEmailContent(result.data);
       window.open(mailtoLink, '_blank');
     } else {
-      setErrors(result.errors as any)
+      setErrors(result.errors as Record<string, string>)
     }
   }
 
@@ -61,7 +61,7 @@ export default function Home() {
           <CardContent>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className="space-y-2">
-                <Label htmlFor="name">User's Name</Label>
+                <Label htmlFor="name">User&apos;s Name</Label>
                 <Input id="name" name="name" required value={formData.name} onChange={handleInputChange} />
                 {errors.name && <p className="text-sm text-red-500">{errors.name}</p>}
               </div>

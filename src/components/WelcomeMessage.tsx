@@ -33,7 +33,7 @@ export function WelcomeMessage({
           Password: {workPassword}
         </p>
         <h3>Software Access:</h3>
-        <p>Below are the login details for the key software tools you'll be using:</p>
+        <p>Below are the login details for the key software tools you&apos;ll be using:</p>
         <h4>MS Teams:</h4>
         <p>
           Username: {teamsEmail}<br />
@@ -44,7 +44,7 @@ export function WelcomeMessage({
           Username: {krollUsername}<br />
           Password: {krollPassword}
         </p>
-        <p>If you encounter any issues or have any questions regarding these credentials, feel free to reach out to me directly. I'm here to help! Looking forward to your success at Silver Scripts Ottawa.</p>
+        <p>If you encounter any issues or have any questions regarding these credentials, feel free to reach out to me directly. I&apos;m here to help! Looking forward to your success at Silver Scripts Ottawa.</p>
       </CardContent>
     </Card>
   )
